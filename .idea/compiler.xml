@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gs-rest-service" />
+        <module name="test-module" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-module" target="23" />
+      <module name="building-a-restful-web-service" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-module" options="-parameters" />
+      <module name="building-a-restful-web-service" options="-parameters" />
+      <module name="gs-rest-service" options="-parameters" />
+      <module name="spring-boot-guide-project" options="" />
+    </option>
+  </component>
+</project>
