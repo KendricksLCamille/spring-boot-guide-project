@@ -20,6 +20,9 @@
       <module name="app-module" options="-parameters" />
       <module name="building-a-restful-web-service" options="-parameters" />
       <module name="gs-rest-service" options="-parameters" />
+      <module name="scheduling-tasks" options="-parameters" />
+      <module name="scheduling-tasks.main" options="-parameters" />
+      <module name="scheduling-tasks.test" options="-parameters" />
       <module name="spring-boot-guide-project" options="" />
     </option>
   </component>
