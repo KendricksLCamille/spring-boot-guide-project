@@ -27,6 +27,7 @@ public class GsConsumingRestApplication {
     @Bean
     @Profile("!test")
     public CommandLineRunner run(RestTemplate restTemplate) {
+        int i = 10;
         return args -> {
             Quote quote = restTemplate.getForObject(
                     "https://jsonplaceholder.typicode.com/todos/9", Quote.class);
