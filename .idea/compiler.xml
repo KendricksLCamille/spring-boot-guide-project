@@ -22,6 +22,9 @@
       <module name="gs-consuming-rest" options="-parameters" />
       <module name="gs-consuming-rest.main" options="-parameters" />
       <module name="gs-consuming-rest.test" options="-parameters" />
+      <module name="gs-consuming-rest2" options="-parameters" />
+      <module name="gs-consuming-rest2.main" options="-parameters" />
+      <module name="gs-consuming-rest2.test" options="-parameters" />
       <module name="gs-rest-service" options="-parameters" />
       <module name="scheduling-tasks" options="-parameters" />
       <module name="scheduling-tasks.main" options="-parameters" />
