@@ -17,6 +17,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accessing-relational-data-using-jdbc" options="-parameters" />
+      <module name="accessing-relational-data-using-jdbc.main" options="-parameters" />
+      <module name="accessing-relational-data-using-jdbc.test" options="-parameters" />
       <module name="app-module" options="-parameters" />
       <module name="building-a-restful-web-service" options="-parameters" />
       <module name="gs-consuming-rest" options="-parameters" />
